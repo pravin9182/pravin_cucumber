@@ -1,0 +1,41 @@
+package com.acc.selenium_21_aug;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Rediff_alert_demo {
+WebDriver driver;
+	@BeforeTest
+	public void beforeTest()  {
+		
+		System.setProperty("webdriver.chrome.driver", "C://driver9999//chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		
+		
+	}
+	@Test 
+
+public void rediff_alert() throws Exception{
+		
+		driver.findElement(By.name("proceed")).click();
+		Alert al =driver.switchTo().alert();
+	
+		String str =al.getText();
+		System.out.println(str);
+		Thread.sleep(3000);
+		Assert.assertEquals(str, "Please enter a valid user name");
+		
+		System.out.println("test passed ");
+		al.accept();
+		
+		
+		
+		}
+
+}

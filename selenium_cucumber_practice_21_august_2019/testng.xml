@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite77" >
+  <test name="Test77">
+    <classes>
+      <class name="com.acc.selenium_21_aug.Testng_demo2"/>
+      <class name="com.acc.selenium_21_aug.jqueri_action_frame_demo"/>
+      <class name="com.acc.selenium_21_aug.Testng_demo1"/>
+      <class name="com.acc.selenium_21_aug.Hdfc_frame_demo"/>
+      <class name="com.acc.selenium_21_aug.Rediff_create_account"/>
+      <class name="com.acc.selenium_21_aug.Workbookcreatexlsx"/>
+      <class name="com.acc.selenium_21_aug.Orderdetails_Testme_app"/>
+      <class name="com.acc.selenium_21_aug.Rediff_alert_demo"/>
+      <class name="com.acc.selenium_21_aug.Newtours_drop_down"/>
+      <class name="com.acc.selenium_21_aug.Frame_DEMO_SELENIUMHQ"/>
+      
+    </classes>
+  </test> <!-- Test77 -->
+</suite> <!-- Suite77 -->

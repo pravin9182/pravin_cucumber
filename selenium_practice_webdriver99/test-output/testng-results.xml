@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12573" started-at="2019-08-06T11:09:06Z" finished-at="2019-08-06T11:09:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12573" started-at="2019-08-06T11:09:06Z" finished-at="2019-08-06T11:09:18Z">
+      <class name="com.acc.selenium_maven_project.ExtentReportListener">
+        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:com.acc.selenium_maven_project.ExtentReportListener@475530b9]" name="startReport" is-config="true" duration-ms="339" started-at="2019-08-06T16:39:06Z" finished-at="2019-08-06T16:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.acc.selenium_maven_project.ExtentReportListener@475530b9]" name="login" duration-ms="10612" started-at="2019-08-06T16:39:06Z" finished-at="2019-08-06T16:39:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [pravin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [pravin]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.acc.selenium_maven_project.ExtentReportListener.login(ExtentReportListener.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.acc.selenium_maven_project.ExtentReportListener@475530b9]" name="getResult" is-config="true" duration-ms="662" started-at="2019-08-06T16:39:17Z" finished-at="2019-08-06T16:39:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=FAILURE method=ExtentReportListener.login()[pri:0, instance:com.acc.selenium_maven_project.ExtentReportListener@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acc.selenium_maven_project.ExtentReportListener@475530b9]" name="tearDown" is-config="true" duration-ms="931" started-at="2019-08-06T16:39:17Z" finished-at="2019-08-06T16:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.acc.selenium_maven_project.ExtentReportListener -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

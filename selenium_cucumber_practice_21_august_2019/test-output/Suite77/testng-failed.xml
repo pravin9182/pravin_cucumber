@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite77]">
+  <test name="Test77">
+    <classes>
+      <class name="com.acc.selenium_21_aug.Testng_demo2"/>
+      <class name="com.acc.selenium_21_aug.jqueri_action_frame_demo"/>
+      <class name="com.acc.selenium_21_aug.Testng_demo1"/>
+      <class name="com.acc.selenium_21_aug.Hdfc_frame_demo"/>
+      <class name="com.acc.selenium_21_aug.Rediff_create_account"/>
+      <class name="com.acc.selenium_21_aug.Workbookcreatexlsx"/>
+      <class name="com.acc.selenium_21_aug.Orderdetails_Testme_app"/>
+      <class name="com.acc.selenium_21_aug.Rediff_alert_demo"/>
+      <class name="com.acc.selenium_21_aug.Newtours_drop_down"/>
+      <class name="com.acc.selenium_21_aug.Frame_DEMO_SELENIUMHQ"/>
+    </classes>
+  </test> <!-- Test77 -->
+  <test name="Test77(failed)">
+    <classes>
+      <class name="com.acc.selenium_21_aug.Testng_demo1">
+        <methods>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Testng_demo1 -->
+      <class name="com.acc.selenium_21_aug.jqueri_action_frame_demo">
+        <methods>
+          <include name="actionsClass"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.jqueri_action_frame_demo -->
+      <class name="com.acc.selenium_21_aug.Frame_DEMO_SELENIUMHQ">
+        <methods>
+          <include name="start"/>
+          <include name="start1"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Frame_DEMO_SELENIUMHQ -->
+      <class name="com.acc.selenium_21_aug.Rediff_alert_demo">
+        <methods>
+          <include name="rediff_alert"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Rediff_alert_demo -->
+      <class name="com.acc.selenium_21_aug.Rediff_create_account">
+        <methods>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Rediff_create_account -->
+      <class name="com.acc.selenium_21_aug.Newtours_drop_down">
+        <methods>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Newtours_drop_down -->
+      <class name="com.acc.selenium_21_aug.Testng_demo2">
+        <methods>
+          <include name="gmail"/>
+          <include name="google"/>
+          <include name="Gacebook"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Testng_demo2 -->
+      <class name="com.acc.selenium_21_aug.Hdfc_frame_demo">
+        <methods>
+          <include name="hdfc_frame"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Hdfc_frame_demo -->
+      <class name="com.acc.selenium_21_aug.Orderdetails_Testme_app">
+        <methods>
+          <include name="action2"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Orderdetails_Testme_app -->
+      <class name="com.acc.selenium_21_aug.Workbookcreatexlsx">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Workbookcreatexlsx -->
+    </classes>
+  </test> <!-- Test77(failed) -->
+</suite> <!-- Failed suite [Suite77] -->

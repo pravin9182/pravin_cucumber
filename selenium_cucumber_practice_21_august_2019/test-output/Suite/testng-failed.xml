@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.acc.selenium_21_aug.jqueri_action_frame_demo"/>
+      <class name="com.acc.selenium_21_aug.Orderdetails_Testme_app"/>
+      <class name="com.acc.selenium_21_aug.ReadWriteExcel"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acc.selenium_21_aug.ReadWriteExcel">
+        <methods>
+          <include name="ReadWrite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.ReadWriteExcel -->
+      <class name="com.acc.selenium_21_aug.Orderdetails_Testme_app">
+        <methods>
+          <include name="action1"/>
+        </methods>
+      </class> <!-- com.acc.selenium_21_aug.Orderdetails_Testme_app -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Page_object_model/testng.xml&apos; to &apos;testng99.xml&apos;" description="Rename resource &apos;testng.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng.xml" name="testng99.xml" stamp="1569219337383" updateReferences="true"/>
+</session>
